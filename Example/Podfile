@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ECPhotoBrowser_Example' do
+  pod 'ECPhotoBrowser', :path => '../'
+
+  target 'ECPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
