@@ -1,0 +1,16 @@
+PODS:
+  - ECPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - ECPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  ECPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ECPhotoBrowser: 865547c07790badbf70de7778aa9965119095e67
+
+PODFILE CHECKSUM: 81cc8c7d107ae1bf2bed91fd5d59e9aa6ba75d8a
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091C97570AF29B7EBEE390CD5A1C15F6 /* Pods-ECPhotoBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4BB0AF51BA19A556A86C1AC26171FD /* Pods-ECPhotoBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2408604BEB55020037D1C1C97B0FAF0E /* ECPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9907B73F55A2F0E15828BAAF5BD01655 /* ECPhotoBrowser-dummy.m */; };
+		2A02454B4EC5BD16D71D9C334B50A7DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		325666AA22D84E10F057A487A029B081 /* ECPhotoBrowserContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B33322C9CAEB888083AF17B954252 /* ECPhotoBrowserContrller.m */; };
+		4389AE1F683A514AEA9B638BE0679F71 /* icon_guanbibaise.png in Resources */ = {isa = PBXBuildFile; fileRef = 537D193B2E3EABD3657062EB4A2A3AF1 /* icon_guanbibaise.png */; };
+		476860FC7A746D0FBF322DA22080F089 /* Pods-ECPhotoBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E4F16878AD4B1FB7C7DF3BD6E5AEEF /* Pods-ECPhotoBrowser_Tests-dummy.m */; };
+		639CF16BEF59252C9AD4E834F8669758 /* Pods-ECPhotoBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BB2EFF64AC06132A101C6935C029AC /* Pods-ECPhotoBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6A20525AA7526E9385BBC1715B6C90 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = F62E14028E6071D8BAECE78D351F50B1 /* UIView+Layout.m */; };
+		711AA61329C8497EA8842E4495F27FD9 /* ECPhotoBrowserContrller.h in Headers */ = {isa = PBXBuildFile; fileRef = E31B77B3197C66F7909B2AD5C885B9BD /* ECPhotoBrowserContrller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775F826EA1F9B998507390A649E52AE2 /* ECPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDE62767C6CDD45777852F05F39C326 /* ECPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EEA2C3287CEA0ED54F685CF62E2163 /* ECBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 310421960814743F93BD6302D8CDF988 /* ECBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC296592A3C9247E2A84F2A9D7B7776 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C25797FA5C2BF9B7AFF988ADEFAE88 /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F011BE0BBE7DE339585095F764635C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AFB817D9F3D0774BE533560EE3765133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B5823E4AA92AE03C73C4B235CF77001E /* ECBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B274F630A77A7F4042223C5E15FDD6 /* ECBrowserCell.m */; };
+		C028681EF393F696D59DACD5366444E6 /* ECPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6174B2DC18BCF0F3F95625EDE0834F97 /* ECPhotoBrowser.bundle */; };
+		FC365D8DA426BE7CBE9B7761663A1D37 /* Pods-ECPhotoBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8183363995917449CCECB15474BCF6F9 /* Pods-ECPhotoBrowser_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11137F054DB2298D1DA2C04CBF7C6260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E1F4702FF7DBA1B58BD559C21A11CD;
+			remoteInfo = ECPhotoBrowser;
+		};
+		B11245525D803B4C6BD61F9D285DCC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F7FEAFBEC7213463203DF5A612E566;
+			remoteInfo = "Pods-ECPhotoBrowser_Example";
+		};
+		E5F20A0CDBBEE41B52A04CB5A8AD475C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78CC884BAD2F0B67FDB5FB9DCBED5A88;
+			remoteInfo = "ECPhotoBrowser-ECPhotoBrowser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DC134285DF300A658EAF3DEF75C3FF /* Pods-ECPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2194F3418F0640DB2218EEE658A1914D /* Pods-ECPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2B33322C9CAEB888083AF17B954252 /* ECPhotoBrowserContrller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECPhotoBrowserContrller.m; path = ECPhotoBrowser/Classes/ECPhotoBrowserContrller.m; sourceTree = "<group>"; };
+		2C73B6ACD75DD1AC1665862CF3CA52ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		310421960814743F93BD6302D8CDF988 /* ECBrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECBrowserCell.h; path = ECPhotoBrowser/Classes/ECBrowserCell.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35A1024536AF978A448C12FE85C9375A /* ECPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ECPhotoBrowser.framework; path = ECPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3861D62F9A2B5BF6AD7C500CADA54632 /* ResourceBundle-ECPhotoBrowser-ECPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ECPhotoBrowser-ECPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		3B163E1064EB10F42A019C9EE85C8C5D /* Pods-ECPhotoBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPhotoBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D62A09D302747423A7FDE70B845C471 /* ECPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECPhotoBrowser.debug.xcconfig; sourceTree = "<group>"; };
+		4AE3C099CB4C3D18987DD0D2FA8846F7 /* Pods-ECPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52C25797FA5C2BF9B7AFF988ADEFAE88 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "ECPhotoBrowser/Classes/UIView+Layout.h"; sourceTree = "<group>"; };
+		537D193B2E3EABD3657062EB4A2A3AF1 /* icon_guanbibaise.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_guanbibaise.png; path = ECPhotoBrowser/Assets/icon_guanbibaise.png; sourceTree = "<group>"; };
+		57D9A81F3997EA838B27355BCB2C727C /* Pods-ECPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6EC5C1A1AB1948BF8847BDF376D080 /* Pods-ECPhotoBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPhotoBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6174B2DC18BCF0F3F95625EDE0834F97 /* ECPhotoBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECPhotoBrowser.bundle; path = "ECPhotoBrowser-ECPhotoBrowser.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635C88C6DB1FFE82564D75B77CAED727 /* ECPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
+		64F75C7BDA2B6B4FA43DFE8C5F72A7E6 /* ECPhotoBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ECPhotoBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76953B286CDC5ED1B0FBDA43E49C9A7A /* ECPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ECPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		7BDE62767C6CDD45777852F05F39C326 /* ECPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		8183363995917449CCECB15474BCF6F9 /* Pods-ECPhotoBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECPhotoBrowser_Example-dummy.m"; sourceTree = "<group>"; };
+		8567BEF514163EB7063D0D833D7A1363 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9907B73F55A2F0E15828BAAF5BD01655 /* ECPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB645C17A939CB4C9B2C32D068C6984 /* Pods-ECPhotoBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ECPhotoBrowser_Tests.modulemap"; sourceTree = "<group>"; };
+		A8E4F16878AD4B1FB7C7DF3BD6E5AEEF /* Pods-ECPhotoBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECPhotoBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD8B0613C04EBBC1CF23CC8DD62E4A08 /* Pods-ECPhotoBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPhotoBrowser_Example-Info.plist"; sourceTree = "<group>"; };
+		B28D5E5CB4F6FFDF94E04B33C93193E4 /* Pods-ECPhotoBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECPhotoBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB4BB0AF51BA19A556A86C1AC26171FD /* Pods-ECPhotoBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECPhotoBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BDE87027FB6D8FB25B94C005DE7A31C4 /* Pods-ECPhotoBrowser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPhotoBrowser_Tests-Info.plist"; sourceTree = "<group>"; };
+		C5AAB6A7FBFA1B9000877CC524752FC4 /* Pods-ECPhotoBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECPhotoBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C5F69F932E24B62971678EFE6ED66F4A /* Pods-ECPhotoBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECPhotoBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8BB2EFF64AC06132A101C6935C029AC /* Pods-ECPhotoBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECPhotoBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
+		D6B274F630A77A7F4042223C5E15FDD6 /* ECBrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECBrowserCell.m; path = ECPhotoBrowser/Classes/ECBrowserCell.m; sourceTree = "<group>"; };
+		E02C5090A5FD9B55D0EC40713C8E63B7 /* Pods_ECPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECPhotoBrowser_Tests.framework; path = "Pods-ECPhotoBrowser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31B77B3197C66F7909B2AD5C885B9BD /* ECPhotoBrowserContrller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECPhotoBrowserContrller.h; path = ECPhotoBrowser/Classes/ECPhotoBrowserContrller.h; sourceTree = "<group>"; };
+		E6F7784D062289BFD46DBF1129A7403B /* Pods-ECPhotoBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ECPhotoBrowser_Example.modulemap"; sourceTree = "<group>"; };
+		E9D4FB234492745CB264B4CB009BC476 /* ECPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
+		F62E14028E6071D8BAECE78D351F50B1 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "ECPhotoBrowser/Classes/UIView+Layout.m"; sourceTree = "<group>"; };
+		F663A8D6B976E263445301F302B2FA35 /* Pods_ECPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECPhotoBrowser_Example.framework; path = "Pods-ECPhotoBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB21FAA763D5DAA7317AE0D8AAF8E424 /* ECPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ECPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C14B78B1955DC5696793F2A8C6C22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A02454B4EC5BD16D71D9C334B50A7DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F7750116C559AB335866F612F9C10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE38B47E88204AB891EE45703642708A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB817D9F3D0774BE533560EE3765133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42B489249E55F679FBB9838108FC190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F011BE0BBE7DE339585095F764635C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250BC993D79C5F9A1E423468D71748F6 /* Pods-ECPhotoBrowser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E6F7784D062289BFD46DBF1129A7403B /* Pods-ECPhotoBrowser_Example.modulemap */,
+				B28D5E5CB4F6FFDF94E04B33C93193E4 /* Pods-ECPhotoBrowser_Example-acknowledgements.markdown */,
+				5F6EC5C1A1AB1948BF8847BDF376D080 /* Pods-ECPhotoBrowser_Example-acknowledgements.plist */,
+				8183363995917449CCECB15474BCF6F9 /* Pods-ECPhotoBrowser_Example-dummy.m */,
+				C5AAB6A7FBFA1B9000877CC524752FC4 /* Pods-ECPhotoBrowser_Example-frameworks.sh */,
+				AD8B0613C04EBBC1CF23CC8DD62E4A08 /* Pods-ECPhotoBrowser_Example-Info.plist */,
+				C8BB2EFF64AC06132A101C6935C029AC /* Pods-ECPhotoBrowser_Example-umbrella.h */,
+				2194F3418F0640DB2218EEE658A1914D /* Pods-ECPhotoBrowser_Example.debug.xcconfig */,
+				00DC134285DF300A658EAF3DEF75C3FF /* Pods-ECPhotoBrowser_Example.release.xcconfig */,
+			);
+			name = "Pods-ECPhotoBrowser_Example";
+			path = "Target Support Files/Pods-ECPhotoBrowser_Example";
+			sourceTree = "<group>";
+		};
+		39AA5D41B69484D4F8B8CA9F11CED9D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1DA9CF9EC98436A84EFE8DDE638F4AE /* ECPhotoBrowser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F523CB2C614CC4881DED097E755A9F9 /* Pods-ECPhotoBrowser_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB645C17A939CB4C9B2C32D068C6984 /* Pods-ECPhotoBrowser_Tests.modulemap */,
+				C5F69F932E24B62971678EFE6ED66F4A /* Pods-ECPhotoBrowser_Tests-acknowledgements.markdown */,
+				3B163E1064EB10F42A019C9EE85C8C5D /* Pods-ECPhotoBrowser_Tests-acknowledgements.plist */,
+				A8E4F16878AD4B1FB7C7DF3BD6E5AEEF /* Pods-ECPhotoBrowser_Tests-dummy.m */,
+				BDE87027FB6D8FB25B94C005DE7A31C4 /* Pods-ECPhotoBrowser_Tests-Info.plist */,
+				BB4BB0AF51BA19A556A86C1AC26171FD /* Pods-ECPhotoBrowser_Tests-umbrella.h */,
+				57D9A81F3997EA838B27355BCB2C727C /* Pods-ECPhotoBrowser_Tests.debug.xcconfig */,
+				4AE3C099CB4C3D18987DD0D2FA8846F7 /* Pods-ECPhotoBrowser_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECPhotoBrowser_Tests";
+			path = "Target Support Files/Pods-ECPhotoBrowser_Tests";
+			sourceTree = "<group>";
+		};
+		74F9D1B61BE0DFDE1BF3BD4678A341A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76953B286CDC5ED1B0FBDA43E49C9A7A /* ECPhotoBrowser.modulemap */,
+				9907B73F55A2F0E15828BAAF5BD01655 /* ECPhotoBrowser-dummy.m */,
+				FB21FAA763D5DAA7317AE0D8AAF8E424 /* ECPhotoBrowser-Info.plist */,
+				E9D4FB234492745CB264B4CB009BC476 /* ECPhotoBrowser-prefix.pch */,
+				7BDE62767C6CDD45777852F05F39C326 /* ECPhotoBrowser-umbrella.h */,
+				3D62A09D302747423A7FDE70B845C471 /* ECPhotoBrowser.debug.xcconfig */,
+				635C88C6DB1FFE82564D75B77CAED727 /* ECPhotoBrowser.release.xcconfig */,
+				3861D62F9A2B5BF6AD7C500CADA54632 /* ResourceBundle-ECPhotoBrowser-ECPhotoBrowser-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		ABD6C320C9779A0595A9A2CE855E8C85 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				64F75C7BDA2B6B4FA43DFE8C5F72A7E6 /* ECPhotoBrowser.podspec */,
+				8567BEF514163EB7063D0D833D7A1363 /* LICENSE */,
+				2C73B6ACD75DD1AC1665862CF3CA52ED /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				39AA5D41B69484D4F8B8CA9F11CED9D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FFFC21DC7E412E4143365E270F30DA06 /* Products */,
+				F3DAAB518B00971D4C513117F80A0B98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DA9CF9EC98436A84EFE8DDE638F4AE /* ECPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				310421960814743F93BD6302D8CDF988 /* ECBrowserCell.h */,
+				D6B274F630A77A7F4042223C5E15FDD6 /* ECBrowserCell.m */,
+				E31B77B3197C66F7909B2AD5C885B9BD /* ECPhotoBrowserContrller.h */,
+				2C2B33322C9CAEB888083AF17B954252 /* ECPhotoBrowserContrller.m */,
+				52C25797FA5C2BF9B7AFF988ADEFAE88 /* UIView+Layout.h */,
+				F62E14028E6071D8BAECE78D351F50B1 /* UIView+Layout.m */,
+				ABD6C320C9779A0595A9A2CE855E8C85 /* Pod */,
+				F8AF24D7A3D744F93320ACA3C3A9F818 /* Resources */,
+				74F9D1B61BE0DFDE1BF3BD4678A341A8 /* Support Files */,
+			);
+			name = ECPhotoBrowser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3DAAB518B00971D4C513117F80A0B98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				250BC993D79C5F9A1E423468D71748F6 /* Pods-ECPhotoBrowser_Example */,
+				3F523CB2C614CC4881DED097E755A9F9 /* Pods-ECPhotoBrowser_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8AF24D7A3D744F93320ACA3C3A9F818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				537D193B2E3EABD3657062EB4A2A3AF1 /* icon_guanbibaise.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FFFC21DC7E412E4143365E270F30DA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6174B2DC18BCF0F3F95625EDE0834F97 /* ECPhotoBrowser.bundle */,
+				35A1024536AF978A448C12FE85C9375A /* ECPhotoBrowser.framework */,
+				F663A8D6B976E263445301F302B2FA35 /* Pods_ECPhotoBrowser_Example.framework */,
+				E02C5090A5FD9B55D0EC40713C8E63B7 /* Pods_ECPhotoBrowser_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E139F91E237A0B43E71B77A0FC7066B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639CF16BEF59252C9AD4E834F8669758 /* Pods-ECPhotoBrowser_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68F136A98A738B5DF2FFC55CCC8F4A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C97570AF29B7EBEE390CD5A1C15F6 /* Pods-ECPhotoBrowser_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BAC510BED2A4DF683BA095C544884B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EEA2C3287CEA0ED54F685CF62E2163 /* ECBrowserCell.h in Headers */,
+				775F826EA1F9B998507390A649E52AE2 /* ECPhotoBrowser-umbrella.h in Headers */,
+				711AA61329C8497EA8842E4495F27FD9 /* ECPhotoBrowserContrller.h in Headers */,
+				9AC296592A3C9247E2A84F2A9D7B7776 /* UIView+Layout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02F7FEAFBEC7213463203DF5A612E566 /* Pods-ECPhotoBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C047667440209098C86AAAAC0C902F /* Build configuration list for PBXNativeTarget "Pods-ECPhotoBrowser_Example" */;
+			buildPhases = (
+				3E139F91E237A0B43E71B77A0FC7066B /* Headers */,
+				B3E09B194F43BB21A55DC6D6C2925B93 /* Sources */,
+				E42B489249E55F679FBB9838108FC190 /* Frameworks */,
+				A78257322843B4C31D16E87A3217084A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C70EBF967B9587FAB66B79B80007B71 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECPhotoBrowser_Example";
+			productName = "Pods-ECPhotoBrowser_Example";
+			productReference = F663A8D6B976E263445301F302B2FA35 /* Pods_ECPhotoBrowser_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78CC884BAD2F0B67FDB5FB9DCBED5A88 /* ECPhotoBrowser-ECPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F679EFBD278D3C13EAEB9EB1386262 /* Build configuration list for PBXNativeTarget "ECPhotoBrowser-ECPhotoBrowser" */;
+			buildPhases = (
+				64AF03489C11C231F02C89601D538598 /* Sources */,
+				85F7750116C559AB335866F612F9C10D /* Frameworks */,
+				BCA7579D3F56C0959DEA984453EE60BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECPhotoBrowser-ECPhotoBrowser";
+			productName = "ECPhotoBrowser-ECPhotoBrowser";
+			productReference = 6174B2DC18BCF0F3F95625EDE0834F97 /* ECPhotoBrowser.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		80E1F4702FF7DBA1B58BD559C21A11CD /* ECPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0934D465213E5D220E0760239ACA5418 /* Build configuration list for PBXNativeTarget "ECPhotoBrowser" */;
+			buildPhases = (
+				B7BAC510BED2A4DF683BA095C544884B /* Headers */,
+				8DAF93C5E094AECEC67A58DC8CC114CD /* Sources */,
+				CE38B47E88204AB891EE45703642708A /* Frameworks */,
+				5D2BCAEF3E08D7920030963A129E4063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7711E0A23D57C5F7EC4CB9AAC31DDC4C /* PBXTargetDependency */,
+			);
+			name = ECPhotoBrowser;
+			productName = ECPhotoBrowser;
+			productReference = 35A1024536AF978A448C12FE85C9375A /* ECPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D26AD40598CB68284B3711EF89EEBC77 /* Pods-ECPhotoBrowser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21C13E43A2F2AB5530FF8F40BF1271D /* Build configuration list for PBXNativeTarget "Pods-ECPhotoBrowser_Tests" */;
+			buildPhases = (
+				B68F136A98A738B5DF2FFC55CCC8F4A5 /* Headers */,
+				A4C11711CF9BB6EB074E3F4ED5FB8C26 /* Sources */,
+				14C14B78B1955DC5696793F2A8C6C22A /* Frameworks */,
+				2C2FAF5E6505AE22BDF3ACAF768C9C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E578C5BBD7F8EE1A6AAAB66D47BA2C /* PBXTargetDependency */,
+			);
+			name = "Pods-ECPhotoBrowser_Tests";
+			productName = "Pods-ECPhotoBrowser_Tests";
+			productReference = E02C5090A5FD9B55D0EC40713C8E63B7 /* Pods_ECPhotoBrowser_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FFFC21DC7E412E4143365E270F30DA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E1F4702FF7DBA1B58BD559C21A11CD /* ECPhotoBrowser */,
+				78CC884BAD2F0B67FDB5FB9DCBED5A88 /* ECPhotoBrowser-ECPhotoBrowser */,
+				02F7FEAFBEC7213463203DF5A612E566 /* Pods-ECPhotoBrowser_Example */,
+				D26AD40598CB68284B3711EF89EEBC77 /* Pods-ECPhotoBrowser_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2FAF5E6505AE22BDF3ACAF768C9C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2BCAEF3E08D7920030963A129E4063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C028681EF393F696D59DACD5366444E6 /* ECPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78257322843B4C31D16E87A3217084A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7579D3F56C0959DEA984453EE60BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4389AE1F683A514AEA9B638BE0679F71 /* icon_guanbibaise.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64AF03489C11C231F02C89601D538598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAF93C5E094AECEC67A58DC8CC114CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5823E4AA92AE03C73C4B235CF77001E /* ECBrowserCell.m in Sources */,
+				2408604BEB55020037D1C1C97B0FAF0E /* ECPhotoBrowser-dummy.m in Sources */,
+				325666AA22D84E10F057A487A029B081 /* ECPhotoBrowserContrller.m in Sources */,
+				6B6A20525AA7526E9385BBC1715B6C90 /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C11711CF9BB6EB074E3F4ED5FB8C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476860FC7A746D0FBF322DA22080F089 /* Pods-ECPhotoBrowser_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E09B194F43BB21A55DC6D6C2925B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC365D8DA426BE7CBE9B7761663A1D37 /* Pods-ECPhotoBrowser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E578C5BBD7F8EE1A6AAAB66D47BA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ECPhotoBrowser_Example";
+			target = 02F7FEAFBEC7213463203DF5A612E566 /* Pods-ECPhotoBrowser_Example */;
+			targetProxy = B11245525D803B4C6BD61F9D285DCC85 /* PBXContainerItemProxy */;
+		};
+		7711E0A23D57C5F7EC4CB9AAC31DDC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECPhotoBrowser-ECPhotoBrowser";
+			target = 78CC884BAD2F0B67FDB5FB9DCBED5A88 /* ECPhotoBrowser-ECPhotoBrowser */;
+			targetProxy = E5F20A0CDBBEE41B52A04CB5A8AD475C /* PBXContainerItemProxy */;
+		};
+		8C70EBF967B9587FAB66B79B80007B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECPhotoBrowser;
+			target = 80E1F4702FF7DBA1B58BD559C21A11CD /* ECPhotoBrowser */;
+			targetProxy = 11137F054DB2298D1DA2C04CBF7C6260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B1E4C93FCD1C9A014FF4977E22288BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2194F3418F0640DB2218EEE658A1914D /* Pods-ECPhotoBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E2875A611183FFA4FF3B95A5A1D5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D62A09D302747423A7FDE70B845C471 /* ECPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ECPhotoBrowser";
+				IBSC_MODULE = ECPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/ECPhotoBrowser/ResourceBundle-ECPhotoBrowser-ECPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ECPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4B86DC6658D2ABF422470C08DDB9C488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635C88C6DB1FFE82564D75B77CAED727 /* ECPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ECPhotoBrowser";
+				IBSC_MODULE = ECPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/ECPhotoBrowser/ResourceBundle-ECPhotoBrowser-ECPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ECPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		61F6BBD7BA1B9ECAA082B6645B36D930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635C88C6DB1FFE82564D75B77CAED727 /* ECPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = ECPhotoBrowser;
+				PRODUCT_NAME = ECPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FDB0284F450E523619BB9DBDD4AC299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D9A81F3997EA838B27355BCB2C727C /* Pods-ECPhotoBrowser_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPhotoBrowser_Tests/Pods-ECPhotoBrowser_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPhotoBrowser_Tests/Pods-ECPhotoBrowser_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEDA434E10A2C2168ADB2628ACCA4641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DC134285DF300A658EAF3DEF75C3FF /* Pods-ECPhotoBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB046A64CC795AFD53459D0CEDB4EE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE3C099CB4C3D18987DD0D2FA8846F7 /* Pods-ECPhotoBrowser_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPhotoBrowser_Tests/Pods-ECPhotoBrowser_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPhotoBrowser_Tests/Pods-ECPhotoBrowser_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1D490A5692A2A668A1E7DC86C1C8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D62A09D302747423A7FDE70B845C471 /* ECPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECPhotoBrowser/ECPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = ECPhotoBrowser;
+				PRODUCT_NAME = ECPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F679EFBD278D3C13EAEB9EB1386262 /* Build configuration list for PBXNativeTarget "ECPhotoBrowser-ECPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2875A611183FFA4FF3B95A5A1D5641 /* Debug */,
+				4B86DC6658D2ABF422470C08DDB9C488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0934D465213E5D220E0760239ACA5418 /* Build configuration list for PBXNativeTarget "ECPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D490A5692A2A668A1E7DC86C1C8B2D /* Debug */,
+				61F6BBD7BA1B9ECAA082B6645B36D930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21C13E43A2F2AB5530FF8F40BF1271D /* Build configuration list for PBXNativeTarget "Pods-ECPhotoBrowser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDB0284F450E523619BB9DBDD4AC299 /* Debug */,
+				CB046A64CC795AFD53459D0CEDB4EE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C047667440209098C86AAAAC0C902F /* Build configuration list for PBXNativeTarget "Pods-ECPhotoBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1E4C93FCD1C9A014FF4977E22288BC /* Debug */,
+				BEDA434E10A2C2168ADB2628ACCA4641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

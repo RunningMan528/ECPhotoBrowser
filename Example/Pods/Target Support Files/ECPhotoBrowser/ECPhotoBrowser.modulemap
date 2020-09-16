@@ -1,0 +1,6 @@
+framework module ECPhotoBrowser {
+  umbrella header "ECPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

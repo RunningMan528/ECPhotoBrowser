@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1558C1F3C081918153BB7FC0 /* Pods-ECPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPhotoBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		461724D3C2B94320D7C4CBAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		461724D3C2B94320D7C4CBAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		538779F0F9C098001B62684B /* Pods-ECPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPhotoBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ECPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A343BC5B75783E87211F2373 /* Pods_ECPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9437A6B36FD06D980A64489 /* Pods-ECPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPhotoBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ECPhotoBrowser_Tests/Pods-ECPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD25569F5C89B556CF026D4C /* ECPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ECPhotoBrowser.podspec; path = ../ECPhotoBrowser.podspec; sourceTree = "<group>"; };
-		FE8AF00123D2E3D04B4506DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD25569F5C89B556CF026D4C /* ECPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECPhotoBrowser.podspec; path = ../ECPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE8AF00123D2E3D04B4506DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				E9437A6B36FD06D980A64489 /* Pods-ECPhotoBrowser_Tests.debug.xcconfig */,
 				6F610583A3738C80A90B36B4 /* Pods-ECPhotoBrowser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2E441057308BE0964932EAF1 /* [CP] Embed Pods Frameworks */,
+				74EDD1153CF58F86E8F542C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E441057308BE0964932EAF1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ECPhotoBrowser/ECPhotoBrowser.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ECPhotoBrowser.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		38B603177E8D26FCAF1E0FFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +337,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74EDD1153CF58F86E8F542C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ECPhotoBrowser/ECPhotoBrowser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ECPhotoBrowser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECPhotoBrowser_Example/Pods-ECPhotoBrowser_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
